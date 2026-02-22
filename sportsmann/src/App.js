@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './comp/header/Header.jsx';
 import Top from './comp/top/Top.jsx';
-import Nav from './comp/nav/Nav.jsx';
+import Navi from './comp/nav/Navi.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Top />
       <Header />
-      <Nav />
+      <Navi />
       
     </div>
   );
