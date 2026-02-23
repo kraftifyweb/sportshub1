@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 function Navi(){
@@ -17,9 +18,9 @@ function Navi(){
                 <Nav.Link href='/events'>Events</Nav.Link>   
                 <Nav.Link href='/teams'>Teams</Nav.Link>
                 <Nav.Link href='/gallery'>Gallery</Nav.Link>
-                <Nav.Link href='/contact'>Contact</Nav.Link>
+                <Link className="nav-link" to='/contact'>Contact</Link>
                 </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> 
                 </Container>
             </Navbar>
         </div>
