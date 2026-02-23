@@ -5,6 +5,7 @@ import Top from './comp/top/Top.jsx';
 import Navi from './comp/nav/Navi.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Home from './comp/home/Home.jsx';
 import Contact from './comp/contact/Contact.jsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       
       <Navi />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>  
