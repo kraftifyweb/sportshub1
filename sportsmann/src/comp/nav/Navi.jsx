@@ -9,7 +9,7 @@ function Navi(){
     return(
         <div>
             <Navbar expand="lg" className="bg-body-warning"><Container>
-                <Navbar.Brand href="#home">Sports Hub</Navbar.Brand>
+              
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
