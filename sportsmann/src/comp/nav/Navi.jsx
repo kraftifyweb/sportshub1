@@ -7,7 +7,7 @@ import './nav.css';
 
 function Navi(){
     return(
-        <div>
+        <div className='navb'>
             <Navbar expand="lg" className="bg-body-warning"><Container>
               
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

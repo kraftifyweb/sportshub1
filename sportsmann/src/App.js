@@ -7,10 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './comp/home/Home.jsx';
 import Contact from './comp/contact/Contact.jsx';
+import Foot from './comp/foot/Foot.jsx';
+import News from './comp/news/News.jsx';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
       <Top />
       <Header />
@@ -18,9 +20,11 @@ function App() {
       <Navi />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>  
+      <Foot />
     </div>
   );
 }

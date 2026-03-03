@@ -1,9 +1,10 @@
 import React from 'react';
+import './top.css';
 
 function Top(){
     return(
-        <div>
-                <h1 className='p-3 m-2 border border-primary bg-warning text-dark'>Welcome to Sports Hub </h1>
+        <div className='top'>
+                <h1 className='m-0 p-3 bg-black text-white'>Welcome to Sports Hub </h1>
         </div>
     )
 }
